@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merienda:wght@300..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* Fonts:
+"Acme"
+"Rajdhani"
+"Merienda"
+*/
+
+/* CSS HEX */
+/* --white: #ffffffff;
+--picton-blue: #00a7e1ff;
+--rich-black: #00171fff;
+--prussian-blue: #003459ff;
+--cerulean: #007ea7ff; */
