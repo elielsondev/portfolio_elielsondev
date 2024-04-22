@@ -78,30 +78,6 @@ body {
   padding: 2px;
 }
 
-#divColorBody {
-  display: flex;
-  align-items: center;
-  margin: 5px;
-}
-#bodyDark {
-  background-color: black;
-  padding: 6px;
-  height: 1vw;
-  width: 1vw;
-  border: 1px solid white;
-  border-radius: 50%;
-  margin: 1px;
-}
-#bodyLight {
-  background-color: white;
-  padding: 6px;
-  height: 1vw;
-  width: 1vw;
-  border: 1px solid black;
-  border-radius: 50%;
-  margin: 1px;
-}
-
 #sandwichMenu {
   margin-right: 20px;
 }
@@ -139,6 +115,7 @@ body {
   margin-left: 4vw;
   margin-right: 4vw;
   margin-top: 12%;
+  margin-bottom: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,6 +138,51 @@ body {
   text-shadow: 0px 2px 0px rgba(255,255,255,1);
 }
 
+/* Fonts:
+"Acme"
+"Rajdhani"
+"Merienda"
+*/
+
+/* CSS HEX */
+/* 
+#ffffff
+#00a7e1
+#00171f
+#003459
+#007ea7 */
+
+/* Componente About */
+#aboutSection {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 2vw;
+  border-radius: 2vw;
+}
+
+#aboutArticle {}
+
+#aboutTitle {
+  font-family: Merienda;
+  font-size: 3.1vw;
+  color: #003459;
+  margin-top: 2vw;
+}
+
+hr {
+  border: #003459;
+}
+
+#aboutParagraph {
+  font-family: Rajdhani;
+  font-size: 2.5vw;
+  color: #003459;
+  flex-wrap: wrap;
+  margin: 0.5em;
+  padding: 2em;
+}
 
 /* MEDIA QUERIES PARA MENOR QUE 500px */
 
