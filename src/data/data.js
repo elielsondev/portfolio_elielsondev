@@ -2,26 +2,30 @@ const data = [
   {
     id: 1,
     profission: "Desenvolvedor de Software - Front-end",
-    aboutTitle: "Sobre mim",
-    aboutText: `Meu nome é Elielson Nascimento (Eli) e estou em transição 
-    de carreira para desenvolvimento de software - front-end. Sou comunicativo, 
-    disposto a aprender constantemente, tenho facilidade em trabalhar em equipe 
-    e amo o que faço. Estou determinado a me tornar um profissional de destaque 
-    nessa área, contribuindo com paixão, habilidades e entusiasmo para projetos 
-    inovadores. Estou confiante de que posso alcançar o sucesso e estou preparado 
-    para abraçar essa nova fase da minha carreira.`,
+    aboutTitle: "Sobre",
+    aboutText: `Sou desenvolvedor de software front-end, estou em 
+    transição de carreira, com experiência em projetos freelancer e pessoais.
+    Busco oportunidade para aplicar conhecimentos, aprender em equipe, contribuir
+    com ideias e crescer profissionalmente. Comprometido em desenvolver
+    constantemente habilidades e tecnologias. Desejo fazer parte de uma equipe 
+    dinâmica e criativa, buscando destaque no mercado.
+    Além disso, possuo conhecimento na área de back-end e banco de dados,
+    o que me permite desenvolver soluções completas e integradas para
+    atender às necessidades dos clientes.`,
   },
   {
     id: 2,
     profission: "Software Developer - Front-end",
     aboutTitle: "About me",
-    aboutText: `My name is Elielson Nascimento (Eli) and I am transitioning to 
-    software development - front-end. I am communicative, ready to learn 
-    constantly, have ease in working in a team and love what I do. 
-    I am determined to become a top-notch professional in this area, 
-    contributing with passion, skills and enthusiam for innovative projects. 
-    I am confident that I can achieve success and am ready to embrace this new 
-    phase of my career.`,
+    aboutText: `I'm a front-end software developer, I'm in
+    career transition, with experience in freelance and personal projects.
+    I seek opportunities to apply knowledge, learn as a team, contribute
+    with ideas and grow professionally. Committed to developing
+    constantly skills and technologies. I want to be part of a team
+    dynamic and creative, seeking to stand out in the market.
+    Furthermore, I have knowledge in the back-end and database areas,
+    which allows me to develop complete and integrated solutions for
+    meet customer needs.`,
   },
 ];
 
