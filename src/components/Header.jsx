@@ -20,6 +20,7 @@ function Header({ setLanguage }) {
             id="portuguese"
             src={brasil}
             alt="Portuguese [Bandeira do Brasil]"
+            title="PT-BR"
             onClick={ () => setLanguage(0)}
           />
 
@@ -27,6 +28,7 @@ function Header({ setLanguage }) {
             id="english"
             src={unitedKingdon}
             alt="English [Flag of the United Kingdon]"
+            title="EN"
             onClick={ () => setLanguage(1)}
           />
 
