@@ -1,6 +1,6 @@
 import React from 'react';
 import meuAvatar from '../utils/meuAvatar.png';
-function Home() {
+function Home({ dataSelect }) {
   return (
     <section id='home'>
       <div>
@@ -9,7 +9,7 @@ function Home() {
 
       <div>
         <h1 id='nameHome'>Elielson Nascimento</h1>
-        <h2 id='profissionHome'>Desenvolvedor de Software - Front-end</h2>
+        <h2 id='profissionHome'>{dataSelect.profission}</h2>
       </div>
     </section>
   )

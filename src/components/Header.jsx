@@ -6,7 +6,7 @@ import unitedKingdon from "../utils/Flag_of_the_United_Kingdom.png";
 // Documentação do pacote: https://hamburger-react.netlify.app/
 import { Divide as Hamburger } from "hamburger-react";
 
-function Header() {
+function Header({ setLanguage }) {
   return (
     <header id="header">
       <div id="logoAndTitle">
@@ -20,12 +20,16 @@ function Header() {
             id="portuguese"
             src={brasil}
             alt="Portuguese [Bandeira do Brasil]"
+            onClick={ () => setLanguage(0)}
           />
+
           <img
             id="english"
             src={unitedKingdon}
             alt="English [Flag of the United Kingdon]"
+            onClick={ () => setLanguage(1)}
           />
+
         </div>
 
         <div id="sandwichMenu">
