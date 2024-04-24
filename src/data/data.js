@@ -36,7 +36,7 @@ const data = [
         id: 4,
         skill: "React",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
       },
       {
         id: 5,
@@ -84,7 +84,7 @@ const data = [
         id: 12,
         skill: "mongoDB",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
         id: 13,
@@ -151,7 +151,7 @@ const data = [
         id: 4,
         skill: "React",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
       },
       {
         id: 5,
@@ -199,7 +199,7 @@ const data = [
         id: 12,
         skill: "mongoDB",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
         id: 13,
