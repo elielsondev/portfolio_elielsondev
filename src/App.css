@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merienda:wght@300..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Merienda:wght@300..900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 /* Fonts:
 "Acme"
@@ -35,17 +34,18 @@ body {
   align-items: center;
   background-color: #003459;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 5px 9px -2px rgba(255,255,255,1);
-  -moz-box-shadow: 0px 5px 9px -2px rgba(255,255,255,1);
-  box-shadow: 0px 5px 9px -2px rgba(255,255,255,1);
-  
+  -webkit-box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
+  box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
+
   position: fixed;
-  top:5px;
+  top: 5px;
   left: 5px;
   right: 5px;
-  z-index:1000; 
-  overflow:hidden;
+  z-index: 1000;
+  overflow: hidden;
 }
+
 #logoAndTitle {
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ body {
 }
 #logo {
   width: 40px;
-  margin-left: 5px
+  margin-left: 5px;
 }
 #titleHeader {
   font-size: 25px;
@@ -73,6 +73,7 @@ body {
   padding: 1px;
   border-radius: 10px;
 }
+
 #english {
   width: 40px;
   height: 28px;
@@ -89,11 +90,11 @@ body {
 
 #aside {
   position: fixed;
-  z-index:999; 
-  top:70px;
+  z-index: 999;
+  top: 70px;
   left: 10px;
-  overflow:hidden;
-  padding:6px;
+  overflow: hidden;
+  padding: 6px;
 }
 
 .socialMediaIcon {
@@ -130,15 +131,15 @@ body {
 
 #nameHome {
   font-family: Merienda;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 #profissionHome {
   color: #00a7e1;
   font-family: Rajdhani;
-  font-size: 25px;
+  font-size: 31px;
   margin-top: -4%;
-  text-shadow: 0px 2px 0px rgba(255,255,255,1);
+  text-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
 }
 
 /* Componente About */
@@ -177,7 +178,6 @@ hr {
   margin: 0.5em;
   padding: 2em;
 }
-
 
 /* Componente Skills */
 #skillsSection {
@@ -218,12 +218,13 @@ hr {
   background-color: #ffffff;
   color: #003459;
   font-weight: 900;
-  position:relative;
+  position: relative;
   z-index: 10000;
   transition: 0.5s all ease-in;
 }
 
-#hardSkills, #softSkills {
+#hardSkills,
+#softSkills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -245,7 +246,7 @@ hr {
 
 .skillsCardHard:hover {
   background-color: #ffffff;
-  position:relative;
+  position: relative;
   z-index: 10000;
   padding: 5px;
   transition: 0.5s all ease-in;
@@ -263,50 +264,101 @@ hr {
 "Merienda"
 */
 
-/* MEDIA QUERIES PARA MENOR QUE 500px */
+/* MEDIA QUERIES PARA MENOR QUE 884px */
+
+@media (max-width: 884px) {
+  #imageHome {
+    width: 160px;
+  }
+
+  #nameHome {
+    font-family: Merienda;
+    font-size: 30px;
+  }
+
+  #profissionHome {
+    color: #00a7e1;
+    font-family: Rajdhani;
+    font-size: 19px;
+    margin-top: -4%;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+  }
+}
+
+/* MEDIA QUERIES PARA MENOR QUE 550px */
 
 @media (max-width: 550px) {
-/* Componente Home */
+  /* Componente Home */
+  #home {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-#home {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 80px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  #imageHome {
+    width: 200px;
+  }
+
+  #nameHome {
+    font-family: Merienda;
+    font-size: 20px;
+  }
+
+  #profissionHome {
+    color: #00a7e1;
+    font-family: Rajdhani;
+    font-size: 13px;
+    margin-top: -4%;
+    text-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
+  }
+
+  /* Componente About */
+
+  hr {
+    height: none;
+  }
+
+  #aboutParagraph {
+    font-size: 18px;
+  }
+
+  /* Componente Skills */
+  .skillsCardSoft {
+    font-size: 18px;
+  }
 }
 
-#imageHome {
-  width: 200px;
-}
+/* MEDIA QUERIES PARA MENOR QUE 460px */
 
-#nameHome {
-  font-family: Merienda;
-  font-size: 20px;
-}
+@media (max-width: 460px) {
+  #logo {
+    width: 30px;
+    margin-left: 5px;
+  }
 
-#profissionHome {
-  color: #00a7e1;
-  font-family: Rajdhani;
-  font-size: 13px;
-  margin-top: -4%;
-  text-shadow: 0px 2px 0px rgba(255,255,255,1);
-}
+  #titleHeader {
+    font-size: 15px;
+    font-family: Merienda;
+  }
 
-/* Componente About */
+  #divLanguage {
+    padding-top: 0px;
+  }
+  #portuguese {
+    width: 25px;
+    height: 20px;
+  }
 
-hr {
-  height: none;
-}
+  #english {
+    width: 25px;
+    height: 20px;
+  }
 
-#aboutParagraph {
-  font-size: 18px;
-}
-
-/* Componente Skills */
-.skillsCardSoft {
-  font-size: 18px;
-}
+  #sandwichMenu {
+    margin-right: 5px;
+  }
 }
