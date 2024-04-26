@@ -2,22 +2,25 @@ import React, { useState } from "react";
 import './App.css';
 
 import Header from "./components/Header";
+import Menu from "./components/Menu.jsx";
 import SocialMedia from "./components/SocialMedia";
 import Home from "./components/Home";
 import About from "./components/About";
-
-import data from "./data/data.js";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 
+import data from "./data/data.js";
+
 function App() {
   const [language, setLanguage] = useState(0);
+  const [menuStatus, setMenuStatus] = useState('hideMenu');
 
   const dataSelect = data[language];
 
   return (
     <>
-      <Header setLanguage={ setLanguage } />
+      <Header setLanguage={ setLanguage } menuStatus={ setMenuStatus } />
+      <Menu dataSelect={ dataSelect } showMenu={ menuStatus } />
       <SocialMedia />
       <Home dataSelect={ dataSelect } />
       <About dataSelect={ dataSelect } />

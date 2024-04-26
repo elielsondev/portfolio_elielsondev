@@ -1,6 +1,7 @@
 const data = [
   {
     id: 1,
+    homeTitle: 'Inicio',
     profission: "Desenvolvedor de Software - Front-end",
     aboutTitle: "Sobre",
     aboutText: `Sou desenvolvedor de software front-end, estou em 
@@ -154,6 +155,7 @@ const data = [
   },
   {
     id: 2,
+    homeTitle: 'Home',
     profission: "Software Developer - Front-end",
     aboutTitle: "About me",
     aboutText: `I'm a front-end software developer, I'm in

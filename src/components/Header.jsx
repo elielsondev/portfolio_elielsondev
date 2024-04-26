@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import meuAvatar from "../utils/meuAvatar.png";
 import brasil from "../utils/Flag_of_Brazil.png";
 import unitedKingdon from "../utils/Flag_of_the_United_Kingdom.png";
 
 // Documentação do pacote: https://hamburger-react.netlify.app/
 import { Divide as Hamburger } from "hamburger-react";
+import Menu from "./Menu";
 
-function Header({ setLanguage }) {
+function Header({ setLanguage, menuStatus }) {
+  
   return (
     <header id="header">
       <div id="logoAndTitle">
@@ -38,9 +40,9 @@ function Header({ setLanguage }) {
           <Hamburger
             onToggle={(toggled) => {
               if (toggled) {
-                alert("open"); // open a menu
+                menuStatus('displayMenu');
               } else {
-                alert("closed"); // close a menu
+                menuStatus('hideMenu')
               }
             }}
           />
