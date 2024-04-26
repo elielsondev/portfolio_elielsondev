@@ -217,6 +217,7 @@ hr {
 .skillsCardSoft:hover {
   background-color: #ffffff;
   color: #003459;
+  font-weight: 900;
   position:relative;
   z-index: 10000;
   transition: 0.5s all ease-in;
@@ -235,6 +236,11 @@ hr {
   width: 100px;
   margin: 10px;
   padding: 10px;
+}
+
+.skillsCardHardSpan:hover {
+  font-weight: 900;
+  transition: 1s all ease-in;
 }
 
 .skillsCardHard:hover {
