@@ -41,6 +41,7 @@ function Header({ setLanguage, menuStatus }) {
             onToggle={(toggled) => {
               if (toggled) {
                 menuStatus('displayMenu');
+                // clickItemRemoveMenu('')
               } else {
                 menuStatus('hideMenu')
               }

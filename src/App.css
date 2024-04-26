@@ -97,11 +97,11 @@ body {
   color:#003459;
   flex-direction: column;
   justify-content: baseline;
-  align-items:flex-end;
-  width: 20%;
+  align-items:flex-start;
+  width: 32%;
   height: 100%;
   margin-top: -115px;
-  margin-left: 79.7%;
+  margin-left: 67.5%;
   padding: 30px;
 }
 
@@ -332,6 +332,14 @@ hr {
 /* MEDIA QUERIES PARA MENOR QUE 550px */
 
 @media (max-width: 550px) {
+  #displayMenu {
+    width: 60%;
+    height: 100%;
+    margin-top: -25px;
+    margin-left: 38%;
+    padding: 10px;
+  }
+
   /* Componente Home */
   #home {
     margin-left: 10px;
