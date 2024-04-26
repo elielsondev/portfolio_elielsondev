@@ -258,11 +258,25 @@ hr {
   margin-top: -10px;
 }
 
-/* Fonts:
-"Acme"
-"Rajdhani"
-"Merienda"
-*/
+/* Componente About */
+#projectsSection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+/* #projectsArticle {} */
+
+#projectsTitle {
+  font-family: Merienda;
+  font-size: 31px;
+  color: #ffffff;
+  margin-top: 30px;
+}
 
 /* MEDIA QUERIES PARA MENOR QUE 884px */
 
