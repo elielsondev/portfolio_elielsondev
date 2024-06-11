@@ -370,6 +370,18 @@ a {
   color: #ffffff;
 }
 
+#footer {
+  display: flex;
+  font-family: Rajdhani;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #003459;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+
 /* MEDIA QUERIES PARA MENOR QUE 884px */
 
 @media (max-width: 884px) {

@@ -10,6 +10,7 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 
 import data from "./data/data.js";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   const [language, setLanguage] = useState(0);
@@ -26,6 +27,7 @@ function App() {
       <About dataSelect={ dataSelect } />
       <Skills dataSelect={ dataSelect } />
       <Projects dataSelect={ dataSelect } />
+      <Footer dataSelect={ dataSelect } />
     </>
   );
 }

@@ -157,6 +157,7 @@ const data = [
 
       }
     ],
+    footer: "Desenvolvido por Elielson - Utilizando o React",
   },
   {
     id: 2,
@@ -311,6 +312,7 @@ const data = [
         repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
       }
     ],
+    footer: "Developed by Elielson - Using React",
   },
 ];
 
