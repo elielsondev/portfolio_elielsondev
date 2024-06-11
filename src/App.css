@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+/* Fonte: https://www.youtube.com/watch?v=2GO_E3KMRVg */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Fonts:
 "Acme"
 "Rajdhani"
@@ -98,10 +103,10 @@ body {
   flex-direction: column;
   justify-content: baseline;
   align-items:flex-start;
-  width: 32%;
+  width: 20%;
   height: 100%;
-  margin-top: -115px;
-  margin-left: 67.5%;
+  margin-top: -118px;
+  margin-left: 79.5%;
   padding: 30px;
 }
 
@@ -306,6 +311,63 @@ hr {
   font-size: 31px;
   color: #ffffff;
   margin-top: 30px;
+}
+
+/* Projects */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.projectCard {
+  background-color: #ffffff2a;
+  border-radius: 15px;
+  width: 260px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.projectName {
+  font-family: Rajdhani;
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+.projectParagraph {
+  font-family: Rajdhani;
+  font-size: 14px;
+  flex-wrap: wrap;
+  margin: 2px;
+}
+
+.projectCard:hover {
+  background-color: #ffffff;
+  color: #003459;
+  transition: 0.5s all ease-in;
+}
+
+.projectButton {
+  font-family: Rajdhani;
+  background-color: #ffffff;
+  font-weight: 600;
+  color: #003459;
+  border-radius: 20px;
+  font-size: 18px;
+  flex-wrap: nowrap;
+  border: 1px solid #003459;
+  margin: 2px;
+}
+
+.projectButton:hover {
+  background-color: #003459;
+  color: #ffffff;
 }
 
 /* MEDIA QUERIES PARA MENOR QUE 884px */
