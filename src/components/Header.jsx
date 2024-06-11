@@ -5,7 +5,7 @@ import unitedKingdon from "../utils/Flag_of_the_United_Kingdom.png";
 
 // Documentação do pacote: https://hamburger-react.netlify.app/
 import { Divide as Hamburger } from "hamburger-react";
-import Menu from "./Menu";
+// import Menu from "./Menu";
 
 function Header({ setLanguage, menuStatus }) {
   
@@ -41,7 +41,6 @@ function Header({ setLanguage, menuStatus }) {
             onToggle={(toggled) => {
               if (toggled) {
                 menuStatus('displayMenu');
-                // clickItemRemoveMenu('')
               } else {
                 menuStatus('hideMenu')
               }
