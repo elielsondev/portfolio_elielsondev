@@ -1,3 +1,8 @@
+import projeto1 from "../utils/projeto1.png";
+import projeto2 from "../utils/projeto2.png";
+import projeto3 from "../utils/projeto3.png";
+import projeto4 from "../utils/projeto4.png";
+
 const data = [
   {
     id: 1,
@@ -118,39 +123,39 @@ const data = [
     projects: [
       {
         id: 1,
-        title: "Projeto 1",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
-        description: "Descrição do projeto 1",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
+        title: "Rádio Canoé Digital FM",
+        image: projeto1,
+        description: "Uma rádio web 24 horas - criada com React",
+        site: "https://canoedigital.vercel.app/",
+        repository: "https://github.com/elielsondev/canoe_digital"
+
       },
       {
         id: 2,
-        title: "Projeto 2",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
-        description: "Descrição do projeto 2",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
+        title: "Gerador de Senhas",
+        image: projeto2,
+        description: "Gerador de senhas simples e intuitivo - criado com React e alguns pacotes do NPM",
+        site: "https://geradordesenha.vercel.app/",
+        repository: "https://github.com/elielsondev/gerador_de_senhas"
       },
       {
         id: 3,
         title: "Projeto 3",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
+        image: projeto3,
         description: "Descrição do projeto 3",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
+        site: "XXXXXXXXXXXXXXXXXXXXXX",
+        repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
+
       },
       {
         id: 4,
         title: "Projeto 4",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
+        image: projeto4,
         description: "Descrição do projeto 4",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
-      },
-      {
-        id: 5,
-        title: "Projeto 5",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
-        description: "Descrição do projeto 5",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
-      },
+        site: "XXXXXXXXXXXXXXXXXXXXXX",
+        repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
+
+      }
     ],
   },
   {
@@ -272,39 +277,39 @@ const data = [
     projects: [
       {
         id: 1,
-        title: "Project 1",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
-        description: "Description of project 1",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
+        title: "Rádio Canoé Digital FM",
+        image: projeto1,
+        description: "Uma rádio web 24 horas - criada com React",
+        site: "https://canoedigital.vercel.app/",
+        repository: "https://github.com/elielsondev/canoe_digital"
+
       },
       {
         id: 2,
-        title: "Project 2",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
-        description: "Description of project 2",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
+        title: "Gerador de Senhas",
+        image: projeto2,
+        description: "Gerador de senhas simples e intuitivo - criado com React e alguns pacotes do NPM",
+        site: "https://geradordesenha.vercel.app/",
+        repository: "https://github.com/elielsondev/gerador_de_senhas"
+
       },
       {
         id: 3,
         title: "Project 3",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
+        image: projeto3,
         description: "Description of project 3",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
+        site: "XXXXXXXXXXXXXXXXXXXXXX",
+        repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
+
       },
       {
         id: 4,
         title: "Project 4",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
+        image: projeto4,
         description: "Description of project 4",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
-      },
-      {
-        id: 5,
-        title: "Project 5",
-        image: "XXXXXXXXXXXXXXXXXXXXXX",
-        description: "Description of project 5",
-        link: "XXXXXXXXXXXXXXXXXXXXXX",
-      },
+        site: "XXXXXXXXXXXXXXXXXXXXXX",
+        repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     ],
   },
 ];
