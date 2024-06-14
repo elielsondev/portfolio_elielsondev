@@ -6,18 +6,23 @@ import projeto4 from "../utils/projeto4.png";
 const data = [
   {
     id: 1,
-    homeTitle: 'Inicio',
+    homeTitle: "Inicio",
     profission: "Desenvolvedor de Software - Front-end",
     aboutTitle: "Sobre",
-    aboutText: `Sou desenvolvedor de software front-end, estou em 
-    transição de carreira, com experiência em projetos freelancer e pessoais.
-    Busco oportunidade para aplicar conhecimentos, aprender em equipe, contribuir
-    com ideias e crescer profissionalmente. Comprometido em desenvolver
-    constantemente habilidades e tecnologias. Desejo fazer parte de uma equipe 
-    dinâmica e criativa, buscando destaque no mercado.
-    Além disso, possuo conhecimento na área de back-end e banco de dados,
-    o que me permite desenvolver soluções completas e integradas para
-    atender às necessidades dos clientes.`,
+    aboutText: `Sou um jovem apaixonado por tecnologia e encontrei minha vocação no 
+    desenvolvimento de software. Após concluir o curso prático e robusto da Trybe, 
+    continuei investindo em minha educação, concluindo recentemente uma pós-graduação 
+    em Engenharia de Software e Métodos Ágeis pelo Instituto Líbano. Atualmente, estou 
+    começando uma nova graduação em Análise e Desenvolvimento de Sistemas pela 
+    Descomplica Faculdade Digital, sempre em busca de aprimorar meus conhecimentos e 
+    expandir meu network.
+
+    Estou constantemente em busca de novas oportunidades para crescer profissionalmente 
+    e aprender mais sobre tecnologias emergentes. Adoro desafios e estou sempre buscando 
+    oportunidades para me superar e adquirir novas habilidades. Estou aberto a novas 
+    experiências e empenhado em me tornar um profissional cada vez mais qualificado e 
+    atualizado.`,
+    
     skillsTitle: "Habilidades",
     hardSkills: [
       {
@@ -127,16 +132,16 @@ const data = [
         image: projeto1,
         description: "Uma rádio web 24 horas - criada com React",
         site: "https://canoedigital.vercel.app/",
-        repository: "https://github.com/elielsondev/canoe_digital"
-
+        repository: "https://github.com/elielsondev/canoe_digital",
       },
       {
         id: 2,
         title: "Gerador de Senhas",
         image: projeto2,
-        description: "Gerador de senhas simples e intuitivo - criado com React e alguns pacotes do NPM",
+        description:
+          "Gerador de senhas simples e intuitivo - criado com React e alguns pacotes do NPM",
         site: "https://geradordesenha.vercel.app/",
-        repository: "https://github.com/elielsondev/gerador_de_senhas"
+        repository: "https://github.com/elielsondev/gerador_de_senhas",
       },
       {
         id: 3,
@@ -144,8 +149,7 @@ const data = [
         image: projeto3,
         description: "Descrição do projeto 3",
         site: "XXXXXXXXXXXXXXXXXXXXXX",
-        repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
-
+        repository: "XXXXXXXXXXXXXXXXXXXXXXXX",
       },
       {
         id: 4,
@@ -153,26 +157,26 @@ const data = [
         image: projeto4,
         description: "Descrição do projeto 4",
         site: "XXXXXXXXXXXXXXXXXXXXXX",
-        repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
-
-      }
+        repository: "XXXXXXXXXXXXXXXXXXXXXXXX",
+      },
     ],
     footer: "Desenvolvido por Elielson - Utilizando o React",
   },
   {
     id: 2,
-    homeTitle: 'Home',
+    homeTitle: "Home",
     profission: "Software Developer - Front-end",
     aboutTitle: "About me",
-    aboutText: `I'm a front-end software developer, I'm in
-    career transition, with experience in freelance and personal projects.
-    I seek opportunities to apply knowledge, learn as a team, contribute
-    with ideas and grow professionally. Committed to developing
-    constantly skills and technologies. I want to be part of a team
-    dynamic and creative, seeking to stand out in the market.
-    Furthermore, I have knowledge in the back-end and database areas,
-    which allows me to develop complete and integrated solutions for
-    meet customer needs.`,
+    aboutText: `I am a young technology enthusiast and I found my passion in software 
+    development. Even after completing the practical and robust course at Trybe, 
+    I continued to qualify and improve my skills in the field. I recently completed 
+    my postgraduate studies in Software Engineering and Agile Methods at the 
+    Instituto Líbano, and I am starting another degree in Analysis and Systems Development 
+    at Descomplica Digital College. 
+    
+    I am constantly looking to enhance my knowledge and expand my network of contacts. 
+    I am always open to new opportunities and to improve my skills in related technologies. 
+    I enjoy challenging myself and seeking out new experiences.`,
     skillsTitle: "Skills",
     hardSkills: [
       {
@@ -282,17 +286,16 @@ const data = [
         image: projeto1,
         description: "A 24-hour web radio - created with React",
         site: "https://canoedigital.vercel.app/",
-        repository: "https://github.com/elielsondev/canoe_digital"
-
+        repository: "https://github.com/elielsondev/canoe_digital",
       },
       {
         id: 2,
         title: "Gerador de Senhas",
         image: projeto2,
-        description: "Simple and intuitive password generator - built with React and some NPM packages",
+        description:
+          "Simple and intuitive password generator - built with React and some NPM packages",
         site: "https://geradordesenha.vercel.app/",
-        repository: "https://github.com/elielsondev/gerador_de_senhas"
-
+        repository: "https://github.com/elielsondev/gerador_de_senhas",
       },
       {
         id: 3,
@@ -300,8 +303,7 @@ const data = [
         image: projeto3,
         description: "Description of project 3",
         site: "XXXXXXXXXXXXXXXXXXXXXX",
-        repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
-
+        repository: "XXXXXXXXXXXXXXXXXXXXXXXX",
       },
       {
         id: 4,
@@ -309,8 +311,8 @@ const data = [
         image: projeto4,
         description: "Description of project 4",
         site: "XXXXXXXXXXXXXXXXXXXXXX",
-        repository: "XXXXXXXXXXXXXXXXXXXXXXXX"
-      }
+        repository: "XXXXXXXXXXXXXXXXXXXXXXXX",
+      },
     ],
     footer: "Developed by Elielson - Using React",
   },
