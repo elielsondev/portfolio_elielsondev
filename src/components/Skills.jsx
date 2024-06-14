@@ -19,9 +19,9 @@ function Skills({ dataSelect }) {
 
         <p className="skillsParagraph">Hard-Skills</p>
         <div id="hardSkills">
-          {dataSelect.hardSkills.map(({ id, skill, image }) => {
+          {dataSelect.hardSkills.map(({skill, image }) => {
             return (
-              <span className="skillsCardHardSpan" key={id}>
+              <span className="skillsCardHardSpan" key={skill}>
                 <img className="skillsCardHard" src={image} alt={skill} />
                 <p className="skillName">{skill}</p>
               </span>

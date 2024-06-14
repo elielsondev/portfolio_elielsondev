@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Projects({ dataSelect }) {
+  const changeRepositoryName = dataSelect.projectsTitle;
   return (
     <section id='projectsSection'>
       <article id='projectsArticle'>
@@ -17,7 +18,7 @@ function Projects({ dataSelect }) {
                 <div className='projectButton'>Site</div>
               </a>
               <a href={ project.repository } target='_blank' rel='noreferrer'>
-                <div className='projectButton'>{ project.title === "Projetos" ? "Repositório" : "Repository" }</div>
+                <div className='projectButton'>{ changeRepositoryName === "Projetos" ? "Repositório" : "Repository" }</div>
               </a>
             </div>
           )) }

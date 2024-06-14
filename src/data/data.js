@@ -280,7 +280,7 @@ const data = [
         id: 1,
         title: "Rádio Canoé Digital FM",
         image: projeto1,
-        description: "Uma rádio web 24 horas - criada com React",
+        description: "A 24-hour web radio - created with React",
         site: "https://canoedigital.vercel.app/",
         repository: "https://github.com/elielsondev/canoe_digital"
 
@@ -289,7 +289,7 @@ const data = [
         id: 2,
         title: "Gerador de Senhas",
         image: projeto2,
-        description: "Gerador de senhas simples e intuitivo - criado com React e alguns pacotes do NPM",
+        description: "Simple and intuitive password generator - built with React and some NPM packages",
         site: "https://geradordesenha.vercel.app/",
         repository: "https://github.com/elielsondev/gerador_de_senhas"
 
