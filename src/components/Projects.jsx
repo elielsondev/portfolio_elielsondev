@@ -11,8 +11,8 @@ function Projects({ dataSelect }) {
         <div id="projects">
           { dataSelect.projects.map((project) => (
             <div key={ project.id } className='projectCard'>
-              <h2 className='projectName'>{ project.title }</h2>
               <img src={ project.image } alt={ project.title } width={250} />
+              <h2 className='projectName'>{ project.title }</h2>
               <p className='projectParagraph'>{ project.description }</p>
               <a href={ project.site } target='_blank' rel='noreferrer'>
                 <div className='projectButton'>Site</div>

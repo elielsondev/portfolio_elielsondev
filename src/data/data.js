@@ -9,20 +9,20 @@ const data = [
     homeTitle: "Inicio",
     profission: "Desenvolvedor de Software - Front-end",
     aboutTitle: "Sobre",
-    aboutText: `Sou um jovem apaixonado por tecnologia e encontrei minha vocação no 
-    desenvolvimento de software. Após concluir o curso prático e robusto da Trybe, 
-    continuei investindo em minha educação, concluindo recentemente uma pós-graduação 
-    em Engenharia de Software e Métodos Ágeis pelo Instituto Líbano. Atualmente, estou 
-    começando uma nova graduação em Análise e Desenvolvimento de Sistemas pela 
-    Descomplica Faculdade Digital, sempre em busca de aprimorar meus conhecimentos e 
-    expandir meu network.
+    aboutText: `Sou um entusiasta de tecnologia com uma profunda paixão pelo 
+    desenvolvimento de software, especialmente no front-end. Desde 2021, 
+    venho estudando e praticando o uso de ferramentas como React, JavaScript, 
+    TypeScript, HTML5, CSS3, Node.js, Redux, Bootstrap e Jest para testes unitários. 
+    Minha dedicação resultou em diversos projetos pessoais que não apenas aprimoram 
+    minhas habilidades, mas também refletem meu entusiasmo pela área.
 
-    Estou constantemente em busca de novas oportunidades para crescer profissionalmente 
-    e aprender mais sobre tecnologias emergentes. Adoro desafios e estou sempre buscando 
-    oportunidades para me superar e adquirir novas habilidades. Estou aberto a novas 
-    experiências e empenhado em me tornar um profissional cada vez mais qualificado e 
-    atualizado.`,
-    
+    Recentemente, concluí um curso extensivo e prático na Trybe, com 1500 horas de 
+    conteúdo aplicado, que me proporcionou uma base sólida e experiência prática. 
+    Além disso, sou pós-graduado em Engenharia de Software e Métodos Ágeis, e 
+    atualmente estou me graduando em Análise e Desenvolvimento de Sistemas. 
+    Estou em busca da minha primeira oportunidade profissional, ansioso para 
+    contribuir e crescer em um ambiente desafiador e inovador.`,
+
     skillsTitle: "Habilidades",
     hardSkills: [
       {
@@ -145,11 +145,11 @@ const data = [
       },
       {
         id: 3,
-        title: "Projeto 3",
+        title: "GitHub Finder",
         image: projeto3,
-        description: "Descrição do projeto 3",
-        site: "XXXXXXXXXXXXXXXXXXXXXX",
-        repository: "XXXXXXXXXXXXXXXXXXXXXXXX",
+        description: "Buscador de usuários do GitHub",
+        site: "https://githubfindersearch.vercel.app/",
+        repository: "https://github.com/elielsondev/project-github-finder",
       },
       {
         id: 4,
@@ -167,16 +167,19 @@ const data = [
     homeTitle: "Home",
     profission: "Software Developer - Front-end",
     aboutTitle: "About me",
-    aboutText: `I am a young technology enthusiast and I found my passion in software 
-    development. Even after completing the practical and robust course at Trybe, 
-    I continued to qualify and improve my skills in the field. I recently completed 
-    my postgraduate studies in Software Engineering and Agile Methods at the 
-    Instituto Líbano, and I am starting another degree in Analysis and Systems Development 
-    at Descomplica Digital College. 
-    
-    I am constantly looking to enhance my knowledge and expand my network of contacts. 
-    I am always open to new opportunities and to improve my skills in related technologies. 
-    I enjoy challenging myself and seeking out new experiences.`,
+    aboutText: `I am a technology enthusiast with a deep passion for software 
+    development, especially in front-end. Since 2021, I have been studying and 
+    practicing with tools such as React, JavaScript, TypeScript, HTML5, CSS3, 
+    Node.js, Redux, Bootstrap, and Jest for unit testing. My dedication has 
+    resulted in several personal projects that not only enhance my skills but 
+    also reflect my enthusiasm for the field.
+
+    Recently, I completed an extensive and practical course at Trybe, with 1500 
+    hours of applied content, which provided me with a solid foundation and 
+    practical experience. Additionally, I hold a postgraduate degree in Software 
+    Engineering and Agile Methods, and I am currently pursuing my degree in 
+    Analysis and Systems Development. I am seeking my first professional opportunity, 
+    eager to contribute and grow in a challenging and innovative environment.`,
     skillsTitle: "Skills",
     hardSkills: [
       {
@@ -299,11 +302,11 @@ const data = [
       },
       {
         id: 3,
-        title: "Project 3",
+        title: "GitHub Finder",
         image: projeto3,
-        description: "Description of project 3",
-        site: "XXXXXXXXXXXXXXXXXXXXXX",
-        repository: "XXXXXXXXXXXXXXXXXXXXXXXX",
+        description: "GitHub user search",
+        site: "https://githubfindersearch.vercel.app/",
+        repository: "https://github.com/elielsondev/project-github-finder",
       },
       {
         id: 4,

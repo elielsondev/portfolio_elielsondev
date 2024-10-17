@@ -326,6 +326,9 @@ a {
 }
 
 .projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: #ffffff2a;
   border-radius: 15px;
   width: 260px;
