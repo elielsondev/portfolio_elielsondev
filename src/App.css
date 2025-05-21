@@ -37,12 +37,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #003459;
+  background-color: #00345929;
   border-radius: 10px;
   -webkit-box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
   -moz-box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
   box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 5px;
   right: 5px;
@@ -55,10 +55,13 @@ body {
   align-items: center;
   text-align: center;
 }
+
 #logo {
   width: 40px;
   margin-left: 5px;
+  border-radius: 150px;
 }
+
 #titleHeader {
   font-size: 25px;
   font-family: Merienda;
@@ -70,6 +73,7 @@ body {
   text-align: center;
   padding-top: -3px;
 }
+
 #portuguese {
   width: 40px;
   height: 28px;
@@ -99,10 +103,10 @@ body {
   position: fixed;
   z-index: 999;
   background-color: #ffffff;
-  color:#003459;
+  color: #003459;
   flex-direction: column;
   justify-content: baseline;
-  align-items:flex-start;
+  align-items: flex-start;
   width: 20%;
   height: 100%;
   margin-top: -118px;
@@ -166,6 +170,7 @@ body {
 
 #imageHome {
   width: 300px;
+  border-radius: 150px;
 }
 
 #nameHome {
@@ -327,26 +332,30 @@ a {
 
 .projectCard {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
   background-color: #ffffff2a;
   border-radius: 15px;
-  width: 260px;
-  height: 350px;
+  max-width: 250px;
+  max-height: 600px;
   margin: 10px;
-  padding: 10px;
+  margin-left: 2.5rem;
+  padding: 20px;
 }
 
 .projectName {
   font-family: Rajdhani;
   font-size: 25px;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 .projectParagraph {
+  display: flex;
   font-family: Rajdhani;
   font-size: 14px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 2px;
 }
 
@@ -362,9 +371,9 @@ a {
   font-weight: 600;
   color: #003459;
   border-radius: 20px;
-  font-size: 18px;
-  flex-wrap: nowrap;
+  font-size: 1rem;
   border: 1px solid #003459;
+  padding: 0.1rem 2rem;
   margin: 2px;
 }
 
@@ -383,6 +392,7 @@ a {
   border-radius: 10px;
   margin: 5px;
   padding: 10px;
+  margin-top: 60px;
 }
 
 /* MEDIA QUERIES PARA MENOR QUE 884px */
@@ -489,5 +499,13 @@ a {
 
   #sandwichMenu {
     margin-right: 5px;
+  }
+}
+
+/* MEDIA QUERIES PARA MENOR QUE 250px */
+
+@media (max-width: 250px) {
+  .projectCard {
+    margin-left: 2.5rem;
   }
 }

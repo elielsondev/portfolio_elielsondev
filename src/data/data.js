@@ -9,19 +9,19 @@ const data = [
     homeTitle: "Inicio",
     profission: "Desenvolvedor de Software - Front-end",
     aboutTitle: "Sobre",
-    aboutText: `Sou um entusiasta de tecnologia com uma profunda paixão pelo 
-    desenvolvimento de software, especialmente no front-end. Desde 2021, 
-    venho estudando e praticando o uso de ferramentas como React, JavaScript, 
-    TypeScript, HTML5, CSS3, Node.js, Redux, Bootstrap e Jest para testes unitários. 
-    Minha dedicação resultou em diversos projetos pessoais que não apenas aprimoram 
-    minhas habilidades, mas também refletem meu entusiasmo pela área.
+    aboutText: `Olá! Sou um Desenvolvedor apaixonado por tecnologia e soluções
+    inovadoras para a web. Com expertise em JavaScript, React, Node.js, Python
+    e AWS, aplico práticas modernas como Metodologias Ágeis, TDD, DevOps e CI/CD.
+    
+    Atualmente, curso Análise e Desenvolvimento de Sistemas e já concluí uma
+    pós-graduação em Engenharia de Software com Métodos Ágeis.
+    
+    Participei de bootcamps na Trybe e AWS, focando em desenvolvimento web e
+    inteligência artificial generativa.
 
-    Recentemente, concluí um curso extensivo e prático na Trybe, com 1500 horas de 
-    conteúdo aplicado, que me proporcionou uma base sólida e experiência prática. 
-    Além disso, sou pós-graduado em Engenharia de Software e Métodos Ágeis, e 
-    atualmente estou me graduando em Análise e Desenvolvimento de Sistemas. 
-    Estou em busca da minha primeira oportunidade profissional, ansioso para 
-    contribuir e crescer em um ambiente desafiador e inovador.`,
+    Extrovertido e colaborativo, gosto de criar soluções e entregar valor por
+    meio de código limpo e escalável. Meu portfólio demonstra minha evolução e
+    paixão pela tecnologia. Vamos nos conectar!!!`,
 
     skillsTitle: "Habilidades",
     hardSkills: [
@@ -147,7 +147,8 @@ const data = [
         id: 3,
         title: "GitHub Finder",
         image: projeto3,
-        description: "Buscador de usuários do GitHub",
+        description:
+          "Buscador de usuários do GitHub, realiza busca por qualquer usuário e seus repositórios.",
         site: "https://githubfindersearch.vercel.app/",
         repository: "https://github.com/elielsondev/project-github-finder",
       },
@@ -167,19 +168,19 @@ const data = [
     homeTitle: "Home",
     profission: "Software Developer - Front-end",
     aboutTitle: "About me",
-    aboutText: `I am a technology enthusiast with a deep passion for software 
-    development, especially in front-end. Since 2021, I have been studying and 
-    practicing with tools such as React, JavaScript, TypeScript, HTML5, CSS3, 
-    Node.js, Redux, Bootstrap, and Jest for unit testing. My dedication has 
-    resulted in several personal projects that not only enhance my skills but 
-    also reflect my enthusiasm for the field.
+    aboutText: `Hello! I am a Developer passionate about technology and solutions
+    innovative solutions for the web. With expertise in JavaScript, React, Node.js, Python
+    and AWS, I apply modern practices such as Agile Methodologies, TDD, DevOps and CI/CD.
+    
+    I am currently studying Systems Analysis and Development and have already completed a
+    postgraduate degree in Software Engineering with Agile Methods.
+    
+    I participated in bootcamps at Trybe and AWS, focusing on web development and
+    generative artificial intelligence.
 
-    Recently, I completed an extensive and practical course at Trybe, with 1500 
-    hours of applied content, which provided me with a solid foundation and 
-    practical experience. Additionally, I hold a postgraduate degree in Software 
-    Engineering and Agile Methods, and I am currently pursuing my degree in 
-    Analysis and Systems Development. I am seeking my first professional opportunity, 
-    eager to contribute and grow in a challenging and innovative environment.`,
+    Extroverted and collaborative, I like to create solutions and deliver value through
+    means of clean and scalable code. My portfolio demonstrates my evolution and
+    passion for technology. Let's connect!!!`,
     skillsTitle: "Skills",
     hardSkills: [
       {
@@ -304,7 +305,8 @@ const data = [
         id: 3,
         title: "GitHub Finder",
         image: projeto3,
-        description: "GitHub user search",
+        description:
+          "GitHub user search engine, searches for any user and their repositories.",
         site: "https://githubfindersearch.vercel.app/",
         repository: "https://github.com/elielsondev/project-github-finder",
       },
