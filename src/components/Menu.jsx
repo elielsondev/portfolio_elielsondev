@@ -1,5 +1,3 @@
-import React from "react";
-
 function Menu({ dataSelect, showMenu }) {
   return (
     <nav id={showMenu}>

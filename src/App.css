@@ -35,13 +35,10 @@ body {
 /* Component Header */
 #header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #00345929;
+  justify-content: right;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
-  -moz-box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
-  box-shadow: 0px 5px 9px -2px rgba(255, 255, 255, 1);
+  margin-left: 10px;
   position: fixed;
   top: 0;
   left: 5px;
@@ -50,22 +47,6 @@ body {
   overflow: hidden;
 }
 
-#logoAndTitle {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-#logo {
-  width: 40px;
-  margin-left: 5px;
-  border-radius: 150px;
-}
-
-#titleHeader {
-  font-size: 25px;
-  font-family: Merienda;
-}
 
 #divLanguage {
   display: flex;
@@ -102,14 +83,14 @@ body {
   display: flex;
   position: fixed;
   z-index: 999;
-  background-color: #ffffff;
+  background-color: #ffffff8d;
   color: #003459;
   flex-direction: column;
   justify-content: baseline;
   align-items: flex-start;
-  width: 20%;
+  width: 21%;
   height: 100%;
-  margin-top: -118px;
+  margin-top: -170px;
   margin-left: 79.5%;
   padding: 30px;
 }
@@ -419,13 +400,6 @@ a {
 /* MEDIA QUERIES PARA MENOR QUE 550px */
 
 @media (max-width: 550px) {
-  #displayMenu {
-    width: 60%;
-    height: 100%;
-    margin-top: -25px;
-    margin-left: 38%;
-    padding: 10px;
-  }
 
   /* Componente Home */
   #home {
@@ -468,37 +442,6 @@ a {
   /* Componente Skills */
   .skillsCardSoft {
     font-size: 18px;
-  }
-}
-
-/* MEDIA QUERIES PARA MENOR QUE 460px */
-
-@media (max-width: 460px) {
-  #logo {
-    width: 30px;
-    margin-left: 5px;
-  }
-
-  #titleHeader {
-    font-size: 15px;
-    font-family: Merienda;
-  }
-
-  #divLanguage {
-    padding-top: 0px;
-  }
-  #portuguese {
-    width: 25px;
-    height: 20px;
-  }
-
-  #english {
-    width: 25px;
-    height: 20px;
-  }
-
-  #sandwichMenu {
-    margin-right: 5px;
   }
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './App.css';
+import "./App.css";
 
 import Header from "./components/Header";
 import Menu from "./components/Menu.jsx";
@@ -14,20 +14,24 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   const [language, setLanguage] = useState(0);
-  const [menuStatus, setMenuStatus] = useState('hideMenu');
+  const [menuStatus, setMenuStatus] = useState("hideMenu");
 
   const dataSelect = data[language];
 
   return (
     <>
-      <Header setLanguage={ setLanguage } menuStatus={ setMenuStatus } />
-      <Menu dataSelect={ dataSelect } showMenu={ menuStatus } />
+      <Header setLanguage={setLanguage} menuStatus={setMenuStatus} />
+      <Menu
+        dataSelect={dataSelect}
+        showMenu={menuStatus}
+        setMenuStatus={setMenuStatus}
+      />
       <SocialMedia />
-      <Home dataSelect={ dataSelect } />
-      <About dataSelect={ dataSelect } />
-      <Skills dataSelect={ dataSelect } />
-      <Projects dataSelect={ dataSelect } />
-      <Footer dataSelect={ dataSelect } />
+      <Home dataSelect={dataSelect} />
+      <About dataSelect={dataSelect} />
+      <Skills dataSelect={dataSelect} />
+      <Projects dataSelect={dataSelect} />
+      <Footer dataSelect={dataSelect} />
     </>
   );
 }

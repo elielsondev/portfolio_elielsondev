@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import meuAvatar from "../utils/meuAvatar.png";
+import React, { useEffect, useState } from "react";
 import brasil from "../utils/Flag_of_Brazil.png";
 import unitedKingdon from "../utils/Flag_of_the_United_Kingdom.png";
 
@@ -8,14 +7,8 @@ import { Divide as Hamburger } from "hamburger-react";
 // import Menu from "./Menu";
 
 function Header({ setLanguage, menuStatus }) {
-  
   return (
     <header id="header">
-      <div id="logoAndTitle">
-        <img id="logo" src={meuAvatar} alt="Meu Avatar" />
-        <h1 id="titleHeader">Elielson Nascimento</h1>
-      </div>
-
       <div id="divLanguage">
         <div>
           <img
@@ -33,7 +26,6 @@ function Header({ setLanguage, menuStatus }) {
             title="EN"
             onClick={ () => setLanguage(1)}
           />
-
         </div>
 
         <div id="sandwichMenu">
@@ -42,9 +34,10 @@ function Header({ setLanguage, menuStatus }) {
               if (toggled) {
                 menuStatus('displayMenu');
               } else {
-                menuStatus('hideMenu')
+                menuStatus('hideMenu');
               }
             }}
+            onClick={menuStatus}
           />
         </div>
       </div>
