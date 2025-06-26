@@ -72,7 +72,7 @@ body {
 }
 
 #sandwichMenu {
-  margin-right: 20px;
+  margin-right: 1.5rem;
 }
 
 #hideMenu {
@@ -88,11 +88,11 @@ body {
   flex-direction: column;
   justify-content: baseline;
   align-items: flex-start;
-  width: 21%;
+  width: 21rem;
   height: 100%;
-  margin-top: -170px;
+  margin-top: -10.6rem;
   margin-left: 79.5%;
-  padding: 30px;
+  padding: 3rem 1rem;
 }
 
 /* "Acme"
@@ -150,8 +150,8 @@ body {
 }
 
 #imageHome {
-  width: 300px;
-  border-radius: 150px;
+  width: 16rem;
+  border-radius:  0.6rem;
 }
 
 #nameHome {
@@ -395,11 +395,22 @@ a {
     margin-top: -4%;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
   }
+
+  #displayMenu {
+  width: 25rem;
+  margin-top: -10.6rem;
+  margin-left: 75%;
+  padding: 3rem 1rem;
+  }
+
+  #displayMenu {
+  margin-left: 72%;
+  }
 }
 
-/* MEDIA QUERIES PARA MENOR QUE 550px */
+/* MEDIA QUERIES PARA MENOR QUE 625px */
 
-@media (max-width: 550px) {
+@media (max-width: 625px) {
 
   /* Componente Home */
   #home {
@@ -416,6 +427,11 @@ a {
     width: 200px;
   }
 
+  #displayMenu {
+    margin-left: 62%;
+    margin-top: -5rem;
+  }
+
   #nameHome {
     font-family: Merienda;
     font-size: 20px;
@@ -426,7 +442,7 @@ a {
     font-family: Rajdhani;
     font-size: 13px;
     margin-top: -4%;
-    text-shadow: 0px 2px 0px rgba(255, 255, 255, 1);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
   }
 
   /* Componente About */
@@ -445,10 +461,25 @@ a {
   }
 }
 
-/* MEDIA QUERIES PARA MENOR QUE 250px */
+/* MEDIA QUERIES PARA MENOR QUE 450px */
 
-@media (max-width: 250px) {
+@media (max-width: 450px) {
+  #displayMenu {
+    font-size: 12px;
+    margin-left: 55%;
+    margin-top: -5rem;
+  }
+}
+
+/* MEDIA QUERIES PARA MENOR QUE 300px */
+
+@media (max-width: 300px) {
   .projectCard {
     margin-left: 2.5rem;
+  }
+
+  #displayMenu {
+    margin-left: 45%;
+    margin-top: -5rem;
   }
 }
