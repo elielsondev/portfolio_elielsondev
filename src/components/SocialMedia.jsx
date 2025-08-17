@@ -32,7 +32,7 @@ function SocialMedia() {
       />
       </a>
       
-      <a href="https://form.jotform.com/222927711736056" target="_blank" rel="noopener noreferrer">
+      <a href="mailto:nascimento.elielson@gmail.com" target="_blank" rel="noopener noreferrer">
       <img
         className="socialMediaIcon"
         src={email}
