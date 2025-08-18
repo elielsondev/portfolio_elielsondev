@@ -133,7 +133,7 @@ body {
 
 .socialMediaIcon:hover {
   opacity: 1;
-  transition: opacity 1s ease 0s;
+  transition: 0.5s all ease-in;
   width: 35px;
 }
 
